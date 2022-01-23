@@ -12,3 +12,5 @@ yet another round of beauty sleep
 
 [Bookmarks]: <https://bookmarks.kyriazis.xyz>
 [kyriazis.xyz]: <https://kyriazis.xyz>
+
+Τσίπμπα και τα Ελληνικά σου!
