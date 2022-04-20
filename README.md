@@ -6,7 +6,7 @@ There's [sleeping beauty]
 - have a look at the [Bookmarks]
 - back to [kyriazis.xyz]
 
-[sleeping beauty]: <sleepingbeauty.md>
+[sleeping beauty]: <sleepingbeauty.html>
 [Bookmarks]: <https://bookmarks.kyriazis.xyz>
 [kyriazis.xyz]: <https://kyriazis.xyz>
 
