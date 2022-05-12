@@ -4,7 +4,7 @@ Ideally I'ld like this space to be a kind of an online journal on several endeav
 
 There's [sleeping beauty].
 
-More content will follow in due time
+More content will follow in due time. For the time being I've just added a few links for a debian configuration. More will follow.
 
 
 - Debian notes [debian]
