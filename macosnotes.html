@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link type="text/css" rel="stylesheet" href="startpage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>macOS Notes</title>
+    <meta name="author" content="Nikos Kyriazis">
+    <meta name="description" content="macos log">
+</head>
+<body>
+    <h1>macOS Notes</h1>
+
+    <h4>show hidden files</h4>
+    <p>cmd + shift + [.]</p>
+
+    <h4>rsync settings</h4>
+
+    <p>type:</p>
+    <p class="code">rsync -vhaHE --progress --delete /Users/nikolask/Documents/ /Volumes/backup 2> ~/Desktop/rsyncErrors.txt</p>
+    <p>options:</p>
+    <li>v: verbose</li>
+    <li>h: human readable numbers</li>
+    <li>a: archive, to keep times, symlinks, permissions, groups, owners and traverse directories recursively</li>
+    <li>H: to keep any hard-link</li>
+    <li>E: to keep extended attributes</li>
+    <li>progress: to keep an eye on job progress</li>
+    <li>delete: removes any extraneous files on the destination</li>
+    <li>2> ~/Desktop/rsyncErrors.txt: contain any errors during the copy and why they failed to copy</li>
+
+    <h4>git settings</h4>
+
+    <p class="code">git config --global user.name "Nikos Kyriazis"</br>
+    git config --global user.email nikos.kyriazis@gmail.com</p>
+</body>
+</html>
