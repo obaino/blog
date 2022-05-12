@@ -7,6 +7,7 @@ There's [sleeping beauty].
 More content will follow in due time. For the time being I've just added a few links for a debian configuration. More will follow.
 
 
+- macOS notes [macos]
 - Debian notes [debian]
 - have a look at the [Bookmarks]
 - back to [kyriazis.xyz]
@@ -15,4 +16,5 @@ More content will follow in due time. For the time being I've just added a few l
 [Bookmarks]: <https://bookmarks.kyriazis.xyz>
 [kyriazis.xyz]: <https://kyriazis.xyz>
 [debian]: <debian.html>
+[macos]: <macosnotes.html>
 
