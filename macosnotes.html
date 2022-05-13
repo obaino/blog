@@ -32,32 +32,43 @@
 
     <h4>git settings</h4>
     <p>global user settings</p>
-    <p class="code">git config --global user.name "Nikos Kyriazis"<br>
-    git config --global user.email nikos.kyriazis@gmail.com</p>
+    <pre>
+    git config --global user.name "Nikos Kyriazis"
+    git config --global user.email nikos.kyriazis@gmail.com
+    </pre>
 
     <p>create .gitignore_global</p>
-    <p class="code">touch ~/.gitignore_global<br>
-    open .gitignore_global</p>
+    <pre>
+    touch ~/.gitignore_global
+    open .gitignore_global
+    </pre>
     <p>add the following to ignore:</p>
-    <p class="code">
-        # Logs and databases #<br>
-        ######################<br>
-        *.log<br>
-        *.sqlite<br>
+    <pre>
+    # Logs and databases #
+    ######################
+    *.log
+    *.sqlite
 
-        # OS generated files #<br>
-        ######################<br>
-        .DS_Store<br>
-        .DS_Store?<br>
-        ._*<br>
-        .Spotlight-V100<br>
-        .Trashes<br>
-        Icon?<br>
-        ehthumbs.db<br>
-        Thumbs.db
-    </p>
+    # OS generated files #
+    ######################
+    .DS_Store
+    .DS_Store?
+    ._*
+    .Spotlight-V100
+    .Trashes
+    Icon?
+    ehthumbs.db
+    Thumbs.db
+    </pre>
     <p>add the following to include .gitignore_global</p>
-    <p class="code"></p>
+    <pre>
+    git config --global core.excludesfile ~/.gitignore_global
+    </pre>
+    <p>and finally:</p>
+    <pre>
+    git config --global color.ui true
+    git config --global core.autocrlf input    
+    </pre>
 
 
     <hr class="perforated">

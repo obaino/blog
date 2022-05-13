@@ -81,3 +81,7 @@ address {
   font-size: 90%;
   font-weight: bold;
 }
+
+pre {
+  font-weight: bold;
+}
