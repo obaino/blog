@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link type="text/css" rel="stylesheet" href="startpage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>xubuntu Notes</title>
+    <meta name="author" content="Nikos Kyriazis">
+    <meta name="description" content="log">
+</head>
+
+<body>
+
+<h1>xubuntu Notes</h1>
+<hr class=gradient>
+
+<h3>Post-installation</h3>
+
+<h4>apps to install</h4>
+xubuntu-restricted-extras<br>
+synaptic<br>
+default-jre<br>
+neofetch pydf ncdu git htop<br>
+xfce4-clipman xfce4-sensors-plugin<br>
+keepassx audacious<br>
+xfdashboard
+
+<h4>keyboard repeat rate</h4>
+<p>Session and Startup > Application Autostart > Add:
+<div class="code">xset r rate 300 50</div></p>
+
+<h4>disable hibernate suspend fast user switch</h4>
+<p class="code">
+    xfconf-query -c xfce4-session -np '/shutdown/ShowHibernate' -t 'bool' -s 'false'</br>
+    xfconf-query -c xfce4-session -np '/shutdown/ShowSuspend' -t 'bool' -s 'false'</br>
+    xfconf-query -c xfce4-session -np '/shutdown/ShowHybridSleep' -t 'bool' -s 'false'</br>
+    xfconf-query -c xfce4-session -np '/shutdown/ShowSwitchUser' -t 'bool' -s 'false'
+</p>
+
+<hr class="perforated">
+
+<address>
+<td style="text-align:right">created by <a href="mailto:malefico@cock.li">malefico</a> 13/05/2022.
+</address>
+
+</body>
+</html>
