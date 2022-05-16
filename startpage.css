@@ -16,7 +16,9 @@ h2 {
 
 h4 {
   background-color: lightgrey;
-  padding: 8px;
+  padding: 12px;
+  border: 2px solid grey;
+  border-radius: 12px;
 }
 body {
     margin-left:6%;
