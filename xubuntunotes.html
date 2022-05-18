@@ -28,20 +28,42 @@ xfdashboard
 
 <h4>keyboard repeat rate</h4>
 <p>Session and Startup > Application Autostart > Add:
-<div class="code">xset r rate 300 50</div></p>
+<pre>
+    xset r rate 300 50
+</pre>
 
 <h4>disable hibernate suspend fast user switch</h4>
-<p class="code">
-    xfconf-query -c xfce4-session -np '/shutdown/ShowHibernate' -t 'bool' -s 'false'<br>
-    xfconf-query -c xfce4-session -np '/shutdown/ShowSuspend' -t 'bool' -s 'false'<br>
-    xfconf-query -c xfce4-session -np '/shutdown/ShowHybridSleep' -t 'bool' -s 'false'<br>
+<pre>
+    xfconf-query -c xfce4-session -np '/shutdown/ShowHibernate' -t 'bool' -s 'false'
+    xfconf-query -c xfce4-session -np '/shutdown/ShowSuspend' -t 'bool' -s 'false'
+    xfconf-query -c xfce4-session -np '/shutdown/ShowHybridSleep' -t 'bool' -s 'false'
     xfconf-query -c xfce4-session -np '/shutdown/ShowSwitchUser' -t 'bool' -s 'false'
-</p>
+</pre>
+
+<h4>Setup Logitech Marble Mouse</h4>
+Create <code>/usr/share/X11/xorg.conf.d/50-marblemouse.conf</code> and add the following lines:
+<pre>
+    Section "InputClass"
+        Identifier  "Marble Mouse"
+        MatchProduct "Logitech USB Trackball"
+        MatchIsPointer "on"
+        MatchDevicePath "/dev/input/event*"
+        Driver "libinput"
+        Option "ButtonMapping" "1 9 3 4 5 6 7 8 2"
+        Option "ScrollButton" "8"
+        Option "ScrollMethod" "button"
+        Option "MiddleEmulation" "on"
+</pre>
+
+<h4><a href="https://github.com/daniruiz/Flat-Remix">Flat Remix Icons</a></h4>
+in a terminal type:<br>
+<code>cd /tmp && rm -rf flat-remix && git clone https://github.com/daniruiz/flat-remix && mkdir -p ~/.icons && cp -r flat-remix/Flat-Remix* ~/.icons/ && gsettings set org.gnome.desktop.interface icon-theme "Flat-Remix"</code>
+
 
 <hr class="perforated">
 
 <address>
-<td style="text-align:right">created by <a href="mailto:malefico@cock.li">malefico</a> 13/05/2022.
+<td style="text-align:right">created by <a href="mailto:malefico@cock.li">malefico</a> 18/05/2022.
 </address>
 
 </body>
