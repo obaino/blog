@@ -11,6 +11,7 @@ More content will follow in due time. For the time being I've just added a few l
 - xubuntu notes [xubuntu]
 - Debian notes [debian]
 - have a look at the [Bookmarks]
+- Θέσεις / Παρα-Θέσεις [blogspot]
 - back to [kyriazis.xyz]
 
 [sleeping beauty]: <sleepingbeauty.html>
@@ -19,4 +20,5 @@ More content will follow in due time. For the time being I've just added a few l
 [debian]: <debian.html>
 [macos]: <macosnotes.html>
 [xubuntu]: <xubuntunotes.html>
+[blogspot]: <https://nkyriazis.blogspot.com/>
 
