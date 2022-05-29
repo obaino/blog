@@ -81,6 +81,12 @@
     killall SystemUIServer
     </pre>
 
+    <h4>restart DNS</h4>
+    <p>Flush the DNS cache</p>
+    <pre>
+    sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+    </pre>
+
     <h4>Installed Applications</h4>
     <p>list of installed applications:</p>
     <ul>
@@ -96,7 +102,7 @@
 
     <hr class="perforated">
 
-<address><td style="text-align:right">created by <a href="mailto:malefico@cock.li">malefico</a> 15/05/2022.</address>
+<address><td style="text-align:right">created by <a href="mailto:malefico@cock.li">malefico</a> 29/05/2022.</address>
 
 </body>
 </html>
