@@ -87,6 +87,20 @@
     sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
     </pre>
 
+    <h4>Snappier Dock</h4>
+    <p>open a terminal and type:</p>
+    <pre>
+        defaults write com.apple.dock autohide-delay -int 0
+        defaults write com.apple.dock autohide-time-modifier -float 0.4
+        killall Dock
+    </pre>
+    <p>to restore default settings type:</p>
+    <pre>
+        defaults delete com.apple.dock autohide-delay
+        defaults delete com.apple.dock autohide-time-modifier
+        killall Dock
+    </pre>
+
     <h4>Installed Applications</h4>
     <p>list of installed applications:</p>
     <ul>
@@ -105,7 +119,7 @@
 
     <hr class="perforated">
 
-<address><td style="text-align:right">created by <a href="mailto:malefico@cock.li">malefico</a> 09/07/2022.</address>
+<address><td style="text-align:right">created by <a href="mailto:malefico@cock.li">malefico</a> 19/07/2022.</address>
 
 </body>
 </html>
