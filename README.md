@@ -14,7 +14,7 @@ More content will follow in due time. For the time being I've just added a few l
 - Θέσεις / Παρα-Θέσεις [blogspot]
 - back to [kyriazis.xyz]
 
-end of file._
+This is the end of file._
 
 [sleeping beauty]: <sleepingbeauty.html>
 [Bookmarks]: <https://bookmarks.kyriazis.xyz>
