@@ -1,5 +1,5 @@
 # blog
-a subdomain to host my blog site._<br>
+This is a subdomain to host my blog site._<br>
 Ideally I'ld like this space to be a kind of an online journal on several endeavours of mine. Time will show how it evolves...
 
 There's [sleeping beauty].
