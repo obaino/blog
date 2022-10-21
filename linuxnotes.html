@@ -25,7 +25,7 @@ audacious vlc mpv<br>
 libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi<br>
 
 <h4>keyboard repeat rate</h4>
-<p>Session and Startup > Application Autostart > Add:
+Session and Startup > Application Autostart > Add:
 <pre>
     xset r rate 300 50
 </pre>
@@ -72,15 +72,28 @@ Create <code>/usr/share/X11/xorg.conf.d/50-marblemouse.conf</code> and add the f
         Option "MiddleEmulation" "on"
 </pre>
 
-<h4><a href="https://github.com/daniruiz/Flat-Remix">Flat Remix Icons</a></h4>
-in a terminal type:<br>
-<code>cd /tmp && rm -rf flat-remix && git clone https://github.com/daniruiz/flat-remix && mkdir -p ~/.icons && cp -r flat-remix/Flat-Remix* ~/.icons/ && gsettings set org.gnome.desktop.interface icon-theme "Flat-Remix"</code>
+<h4>python3 pip / <a href="https://maestral.app/">Maestral</a></h4>
+to install pip:<br>
+<pre>
+    sudo apt install python3-venv python3-pip
+    sudo -H pip3 install --upgrade pip
+</pre>
+to install maestral:<br>
+<pre>
+    python3 -m pip install --upgrade maestral[gui]
+</pre>
+
+<h4>mount ntfs drive</h4>
+add to /etc/fstab
+<pre>
+    UUID=12D62000D61FE2B1	/mnt/Vault  ntfs-3g	defaults,uid=1000,gid=1000,dmask=027,fmask=137,nls=utf8	0 0
+</pre>
 
 
 <hr class="perforated">
 
 <address>
-<td style="text-align:right">created by <a href="mailto:malefico@cock.li">malefico</a> 20/10/2022.
+<td style="text-align:right">created by <a href="mailto:malefico@cock.li">malefico</a> 21/10/2022.
 </address>
 
 </body>
