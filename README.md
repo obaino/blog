@@ -6,7 +6,7 @@ There's [sleeping beauty].
 
 More content will follow in due time. For the time being I've just added a few links for a debian configuration. More will follow.
 
-
+- Θέσεις / Παρα-Θέσεις [theses]
 - macOS notes [macos]
 - linux notes [linuxnotes]
 - xubuntu notes [xubuntu]
@@ -17,6 +17,7 @@ More content will follow in due time. For the time being I've just added a few l
 
 This is the end of file._
 
+[theses]: <https://nkyriazis.blogspot.com/>
 [sleeping beauty]: <sleepingbeauty.html>
 [Bookmarks]: <https://bookmarks.kyriazis.xyz>
 [kyriazis.xyz]: <https://kyriazis.xyz>
