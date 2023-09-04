@@ -25,5 +25,5 @@ This is the end of file._
 [debian]: <debian.html>
 [macos]: <macosnotes.html>
 [xubuntu]: <xubuntunotes.html>
-[blogspot]: <https://nkyriazis.blogspot.com/>
+[blogspot]: <https://theseis-paratheseis.blogspot.com/>
 
